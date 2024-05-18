@@ -16,11 +16,17 @@ This project is an online marketplace where users can buy and sell fashion items
 - **Item Browsing**: Buyers can browse through items by category or search for specific items.
 - **Item Details**: Detailed view of each item with high-quality images and descriptions.
 
+### Item Management
+
+- **Add Items**: Sellers can add new items to the marketplace with detailed information and images.
+- **Edit Items**: Sellers can edit the details of their listed items.
+- **Delete Items**: Sellers can delete their items from the marketplace.
+- **Dashboard**: Users can see and manage the items they have added from their personal dashboard.
+
 ### Conversations
 
 - **Messaging**: Built-in messaging system allows buyers and sellers to communicate directly within the platform.
 - **Conversation Management**: Users can view their conversation history and manage their messages.
-
 ## Tech Stack
 
 - **Backend**: Django, Django REST framework
@@ -33,7 +39,7 @@ This project is an online marketplace where users can buy and sell fashion items
 
 1. **Clone the repository**:
     
-    `git clone https://github.com/lokeshwarlakhi/Q-Mart-Online-Marketplace.git cd fashion-marketplace`
+    `git clone https://github.com/lokeshwarlakhi/Q-Mart-Online-Marketplace.git cd Q-Mart`
     
 2. **Install dependencies**:
     
@@ -55,6 +61,11 @@ This project is an online marketplace where users can buy and sell fashion items
 - **Django's built-in authentication system**: Utilized for user sign-up, login, and profile management.
 - **Custom User Model**: Extended to include additional user information.
 - **Permissions**: Implemented using Django's permissions framework to ensure only authorized users can perform certain actions (e.g., only sellers can list items).
+
+#### Item Management
+
+- **CRUD Operations**: Implemented using Django views and forms, allowing users to create, read, update, and delete their items.
+- **Dashboard**: Personalized dashboard where users can view and manage the items they have added to the marketplace.
 
 #### Conversations
 
