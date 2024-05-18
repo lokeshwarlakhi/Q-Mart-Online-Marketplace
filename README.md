@@ -33,7 +33,7 @@ This project is an online marketplace where users can buy and sell fashion items
 
 1. **Clone the repository**:
     
-    `git clone https://github.com/yourusername/fashion-marketplace.git cd fashion-marketplace`
+    `git clone https://github.com/lokeshwarlakhi/Q-Mart-Online-Marketplace.git cd fashion-marketplace`
     
 2. **Install dependencies**:
     
